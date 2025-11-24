@@ -9,7 +9,7 @@ class Pngpaste < Formula
   depends_on xcode: :build
 
   def install
-    system "swift", "build", "-c", "release"
+    system "swift", "build", "-c", "release", "--disable-sandbox"
     bin.install ".build/release/pngpaste"
   end
 
