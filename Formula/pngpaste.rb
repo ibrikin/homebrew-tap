@@ -2,7 +2,7 @@ class Pngpaste < Formula
   desc "Save clipboard images to files"
   homepage "https://github.com/ibrikin/pngpaste"
   url "https://github.com/ibrikin/pngpaste/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "902a711d99696a9043fb7f72094026a6fec20d9f95574dfef3012a6f48d7c372"
+  sha256 "99dcc5a2c9b80d2d9bd5c5748ef0aa467186c9c3104fe73352454cff86664880"
   head "https://github.com/ibrikin/pngpaste.git", branch: "main"
 
   depends_on macos: :ventura
